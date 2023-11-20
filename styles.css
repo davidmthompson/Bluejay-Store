@@ -1,0 +1,60 @@
+.Shop {
+    border-color: black;
+    color: White;
+    background: royalblue;
+    border-radius: 15px;
+    font-size: xx-large;
+}
+
+.Acount{
+    border-color: black;
+    color: white;
+    background-color: royalblue;
+    border-radius: 15px;
+    font-size: xx-large;
+}
+
+.TabelCenter {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.Side_bar{
+    grid-area: Side_bar;
+}
+
+
+.item{
+    grid-area: item;
+}
+
+.item2{
+    grid-area: item2;
+}
+
+.item3{
+    grid-area: item3;
+}
+
+.prize{
+    margin-left: 60px;
+    color: green;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.item_Tille{
+    font-size: larger;
+}
+
+
+
+
+
+
+.grid-table{
+    display: grid;
+    grid-template: 
+    'side_bar item item2 item3';
+    
+}
